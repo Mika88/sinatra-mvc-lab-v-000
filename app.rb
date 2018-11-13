@@ -6,6 +6,6 @@ class App < Sinatra::Base
   end
 
   post '/' do
-    erb :
+    
   end
 end
