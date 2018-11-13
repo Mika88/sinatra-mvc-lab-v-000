@@ -1,3 +1,4 @@
+require 'pry'
 class PigLatinizer
   words = []
   def piglatinize(words)
