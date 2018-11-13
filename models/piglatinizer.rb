@@ -5,7 +5,8 @@ class PigLatinizer
 
   def piglatinize(words)
     words.each do |word|
-      word.gsub(word[0], word[-1])
+      new_word = word.gsub(word[0], word[-1]) + "ay"
     end
-  end 
+    new_word
+  end
 end
